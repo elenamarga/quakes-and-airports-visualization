@@ -1,0 +1,42 @@
+Java project for "Object Oriented Programming in Java", course #1
+in "Java Programming: Object-Oriented Design of Data Structures" 
+from University of California, San Diego (on Coursera).
+==================================================================
+A skeleton to use Unfolding in Eclipse as well as some starter
+code was provided.
+
+The module folders contain the starter code for the programming assignments
+associated with the MOOC.
+In each file, a //TODO indicates the methods I implemented.
+
+In week 6, the assignment consisted of a project extension and I chose to
+work with the airport and route data, instead of quakes. 
+- I decided to first sort the airports based on the number of in/out routes 
+and then show only a certain number of airports. 
+- When the user hovers over a marker, it desplays additional info about it, 
+such as the name and the number of in/out routes. 
+- When the user clicks on a marker, it desplays all the in/out routes of 
+that airport.
+==================================================================
+INSTALLATION
+
+Import this folder in Eclipse ('File' -> 'Import' -> 'Existing Projects into
+Workspace', Select this folder, 'Finish')
+
+
+MANUAL INSTALLATION
+
+If the import does not work follow the steps below.
+
+- Create new Java project
+- Copy+Paste all files into project
+- Add all lib/*.jars to build path
+- Set native library location for jogl.jar. Choose appropriate folder for your OS.
+- Add data/ as src
+
+
+TROUBLE SHOOTING
+
+Switch Java Compiler to 1.6 if you get VM problems. (Processing should work with Java 1.6, and 1.7)
+
+
